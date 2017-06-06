@@ -1,0 +1,21 @@
+PODS:
+  - YandexMobileTestCaseRecorder (0.1)
+
+DEPENDENCIES:
+  - YandexMobileTestCaseRecorder (from `https://github.com/sanllier/YandexMobileTestCaseRecorder.git`)
+
+EXTERNAL SOURCES:
+  YandexMobileTestCaseRecorder:
+    :git: https://github.com/sanllier/YandexMobileTestCaseRecorder.git
+
+CHECKOUT OPTIONS:
+  YandexMobileTestCaseRecorder:
+    :commit: 3fc9b42115e80f722f5978863e4e536ed6a7b461
+    :git: https://github.com/sanllier/YandexMobileTestCaseRecorder.git
+
+SPEC CHECKSUMS:
+  YandexMobileTestCaseRecorder: b35b909a4ac9c3cc333fb1b3be55124579e3f608
+
+PODFILE CHECKSUM: 0e0a3ee5dc93017fa55ff88bbbb875b6cb51d2ef
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297656B65E88AE5C2AC0B170 /* Pods_NestorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E202B4607AC6F6D297DE023C /* Pods_NestorExample.framework */; };
+		8A7610591EE707CD009B6395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7610581EE707CD009B6395 /* AppDelegate.swift */; };
+		8A76105B1EE707CD009B6395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76105A1EE707CD009B6395 /* ViewController.swift */; };
+		8A7610631EE707CD009B6395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7610611EE707CD009B6395 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C5E00FA99EE66CEE9D67940 /* Pods-NestorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestorExample/Pods-NestorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7610551EE707CD009B6395 /* NestorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7610581EE707CD009B6395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A76105A1EE707CD009B6395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A7610621EE707CD009B6395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A7610641EE707CD009B6395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E202B4607AC6F6D297DE023C /* Pods_NestorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62702ECB9726CC7A6379447 /* Pods-NestorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestorExample/Pods-NestorExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A7610521EE707CD009B6395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297656B65E88AE5C2AC0B170 /* Pods_NestorExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B8F751B2A16E4132D2C417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C5E00FA99EE66CEE9D67940 /* Pods-NestorExample.debug.xcconfig */,
+				F62702ECB9726CC7A6379447 /* Pods-NestorExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ECBA2E098338BDC2E58880D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E202B4607AC6F6D297DE023C /* Pods_NestorExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A76104C1EE707CD009B6395 = {
+			isa = PBXGroup;
+			children = (
+				8A7610571EE707CD009B6395 /* NestorExample */,
+				8A7610561EE707CD009B6395 /* Products */,
+				63B8F751B2A16E4132D2C417 /* Pods */,
+				6ECBA2E098338BDC2E58880D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7610561EE707CD009B6395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A7610551EE707CD009B6395 /* NestorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A7610571EE707CD009B6395 /* NestorExample */ = {
+			isa = PBXGroup;
+			children = (
+				8A7610581EE707CD009B6395 /* AppDelegate.swift */,
+				8A76105A1EE707CD009B6395 /* ViewController.swift */,
+				8A7610611EE707CD009B6395 /* LaunchScreen.storyboard */,
+				8A7610641EE707CD009B6395 /* Info.plist */,
+			);
+			path = NestorExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A7610541EE707CD009B6395 /* NestorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7610671EE707CD009B6395 /* Build configuration list for PBXNativeTarget "NestorExample" */;
+			buildPhases = (
+				6ADE96E1482DF40D0C881C31 /* [CP] Check Pods Manifest.lock */,
+				8A7610511EE707CD009B6395 /* Sources */,
+				8A7610521EE707CD009B6395 /* Frameworks */,
+				8A7610531EE707CD009B6395 /* Resources */,
+				FA8B02245372CCF7F8655F5F /* [CP] Embed Pods Frameworks */,
+				6019D1588F4EA16F4772FC1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestorExample;
+			productName = NestorExample;
+			productReference = 8A7610551EE707CD009B6395 /* NestorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A76104D1EE707CD009B6395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alexander Goremykin";
+				TargetAttributes = {
+					8A7610541EE707CD009B6395 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 477EAT77S3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A7610501EE707CD009B6395 /* Build configuration list for PBXProject "NestorExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A76104C1EE707CD009B6395;
+			productRefGroup = 8A7610561EE707CD009B6395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A7610541EE707CD009B6395 /* NestorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A7610531EE707CD009B6395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7610631EE707CD009B6395 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6019D1588F4EA16F4772FC1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NestorExample/Pods-NestorExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ADE96E1482DF40D0C881C31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8B02245372CCF7F8655F5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NestorExample/Pods-NestorExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A7610511EE707CD009B6395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A76105B1EE707CD009B6395 /* ViewController.swift in Sources */,
+				8A7610591EE707CD009B6395 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A7610611EE707CD009B6395 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A7610621EE707CD009B6395 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A7610651EE707CD009B6395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A7610661EE707CD009B6395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A7610681EE707CD009B6395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5E00FA99EE66CEE9D67940 /* Pods-NestorExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 477EAT77S3;
+				INFOPLIST_FILE = NestorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.NestorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A7610691EE707CD009B6395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62702ECB9726CC7A6379447 /* Pods-NestorExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 477EAT77S3;
+				INFOPLIST_FILE = NestorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.NestorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A7610501EE707CD009B6395 /* Build configuration list for PBXProject "NestorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7610651EE707CD009B6395 /* Debug */,
+				8A7610661EE707CD009B6395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7610671EE707CD009B6395 /* Build configuration list for PBXNativeTarget "NestorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7610681EE707CD009B6395 /* Debug */,
+				8A7610691EE707CD009B6395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A76104D1EE707CD009B6395 /* Project object */;
+}
